@@ -30,7 +30,7 @@ app.use(express.json());
 
 //Routes
 app.get('/', (req, res) => {
-    res.send("welcome");
+    res.send("Hola Kendall, exitosamente logré subir mi aplicación node js con express al host heroku");
 });
 app.get('/user', (req, res) => {
     const data = [{ name: 'John' }, { name: 'hugo' }, { name: 'Carter' }];
